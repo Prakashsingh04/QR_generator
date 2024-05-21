@@ -1,7 +1,7 @@
 <script type="text/javascript">
 function QRgen()
 {
-	var gapi= "https://chart.googleapis.com/chart?cht=qr&chs="
+	var gapi= "https://chart.googleapis.com/chart?chf=bg,s,65432100&cht=qr&chs="
 	var myimg=document.getElementById("img");
 	var mytext=document.getElementById("qrtext").value;
 	var mysize=document.getElementById("size").value;
@@ -32,7 +32,7 @@ function QRgen()
 	}
 
 	else{
-		alert "!!! PLEASE INSERT THE TEXT !!!!"
+		alert("!!! PLEASE INSERT THE TEXT !!!!");
 	}
 
 
